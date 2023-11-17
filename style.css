@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.section-intro{
+    position: relative;
+    min-height:100% ;
+    background-image: url(images/img1.jpg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.intro-text{
+    position: absolute;
+    text-align: left;
+    top:20%;
+    left: 40%;
+
+}
+.Font{
+    font-size: 30px;
+    color: rgb(207, 207, 50);
+}
+.font{
+    font-size: 20px;
+    color: rgb(39, 46, 2);
+}
+.proposal{
+    height: 180px;
+    background-color:rgb(0, 0, 0);
+    color: aliceblue;
+    text-align: center;
+    padding: 30px 0;
+}
+#propo-text{
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+#big{
+    font-size: 108px;
+}
+#cards{
+    height: 600px;
+    background-color:rgb(252, 183, 92);
+    display: flex;
+    justify-content: center;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    padding: 0 90px;
+    /* background-color:blue; */
+}
+#card1, #card2, #card3{
+    height: 70%;
+    width:27%;
+    border: 1px solid #cccc;
+    background-color:rgb(252, 165, 52);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow:  0 6px rgba(0, 0, 0, 0.15) ;
+}
+img{
+    width: 100%;
+    
+}
+
+#card1 h1 , #card2 h1, #card3 h1,#card1 p, #card2 p, #card3 p{
+    padding: 10px;
+}
+.section-outro{
+    display: flex;
+    height: 300px;
+    color: azure;
+}
+.container{
+    padding: 60px;
+}
+.contact{
+    width: 50%;
+    background-color:rgb(81, 86, 3);
+}
+.about p, .contact p{
+    padding-top: 20px;
+}
+.about{
+    width: 50%;
+    background-color:rgb(114, 35, 16);
+}
+.contact h1,.about h1{
+    text-transform: capitalize;
+    font-size: 70px;
+}
+
+#footer{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 30px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    color: azure;
+}
